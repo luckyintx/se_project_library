@@ -241,6 +241,10 @@ a {
 
 .staff {
   padding: 100px 0 140px;
+  background-image: url("../images/staff_picks_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .staff__title {
@@ -248,6 +252,7 @@ a {
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #ffffff;
 }
 
 .staff__subtitle {
@@ -256,6 +261,7 @@ a {
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: #ffffff;
 }
 
 .staff__content {
@@ -267,13 +273,6 @@ a {
   gap: 40px;
   margin: 0 auto;
   list-style-type: none;
-}
-
-.background__image {
-  display: flex;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 1600px;
 }
 
 .card {
@@ -332,11 +331,16 @@ a {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 220px;
 }
 
 .step {
-  /* Add styles */
+  justify-content: center;
+  display: flex;
+  gap: 40px;
 }
 
 .step__title {
