@@ -331,25 +331,27 @@ a {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   flex-basis: 220px;
-}
-
-.step {
-  justify-content: center;
-  display: flex;
   gap: 40px;
 }
 
+.step {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 220px;
+  align-items: start;
+}
+
 .step__title {
-  margin: 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .step__icon {
@@ -357,7 +359,9 @@ a {
 }
 
 .step__description {
-  margin: 10px 0 0;
+  margin-right: auto;
+  display: flex;
+  font-size: 16px;
 }
 
 .about {
