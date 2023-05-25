@@ -371,6 +371,7 @@ a {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
@@ -378,6 +379,9 @@ a {
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
+  max-width: 154px;
+  display: flex;
+  position: relative;
   z-index: 1;
 }
 
@@ -386,6 +390,16 @@ a {
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  z-index: 1;
+  margin-left: 120px;
+}
+
+.about__paragraph {
+  margin: 0 0 32px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
@@ -393,6 +407,10 @@ a {
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  display: flex;
+  position: absolute;
+  top: -121px;
+  left: -91px;
 }
 
 .footer {
