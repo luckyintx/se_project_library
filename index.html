@@ -18,31 +18,35 @@
             alt="Practicum Library Logo"
             class="logo"
           />
-          <ul class="nav__links">
-            <li>
-              <a href="#staff" class="nav_link" style="color: black"
-                >Staff Picks</a
-              >
-            </li>
-            <li>
-              <a href="#events" class="nav_link" style="color: black">Events</a>
-            </li>
-            <li>
-              <a href="#membership" class="nav_link" style="color: black"
-                >Become a member</a
-              >
-            </li>
-            <li>
-              <a href="#about" class="header__link" style="color: black"
-                >About</a
-              >
-            </li>
-            <li>
-              <a href="#contacts" class="nav_link" style="color: black"
-                >Contacts</a
-              >
-            </li>
-          </ul>
+          <div class="nav__links">
+            <ul ="nav__link">
+              <li>
+                <a href="#staff-picks" class="nav_link" style="color: black"
+                  >Staff Picks</a
+                >
+              </li>
+              <li>
+                <a href="#events" class="nav_link" style="color: black"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a href="#membership" class="nav_link" style="color: black"
+                  >Become a member</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="header__link" style="color: black"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#contacts" class="nav_link" style="color: black"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
         </nav>
         <h1 class="header__title">Welcome to the Practicum Library</h1>
         <p class="header__description">
@@ -145,13 +149,13 @@
           </div>
         </section>
 
-        <section class="staff" id="staff">
+        <section class="staff" id="staff-picks">
           <h2 class="staff__title">Reader picks</h2>
           <p class="staff__subtitle">
             From the Library Collection of Kory Russell
           </p>
-          <div class="staff__content">
-            <div class="card">
+          <ul class="staff__content">
+            <li class="staff__cards">
               <div class="card__content">
                 <h3 class="card__title">
                   Princess: True Story behind the Veil in Saudi Arabia
@@ -165,9 +169,9 @@
                 </p>
                 <p class="card__footer">Jean Sasson</p>
               </div>
-            </div>
+            </li>
 
-            <div class="card">
+            <li class="staff__cards">
               <div class="card__content">
                 <h3 class="card__title">Murder on the Titanic</h3>
                 <p class="card__text">
@@ -180,9 +184,9 @@
                 </p>
                 <p class="card__footer">Jim Walker</p>
               </div>
-            </div>
+            </li>
 
-            <div class="card">
+            <li class="staff__cards">
               <div class="card__content">
                 <h3 class="card__title">The Shepherd of the Hills</h3>
                 <p class="card__text">
@@ -196,9 +200,9 @@
                 </p>
                 <p class="card__footer">Harold Bell Wright</p>
               </div>
-            </div>
+            </li>
 
-            <div class="card">
+            <li class="staff__cards">
               <div class="card__content">
                 <h3 class="card__title">Gifted Hands: The Ben Carson Story</h3>
                 <p class="card__text">
@@ -210,8 +214,8 @@
                 </p>
                 <p class="card__footer">Ben Carson, M.D., Cecil Murphey</p>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
 
         <section class="membership" id="membership">
@@ -303,15 +307,15 @@
               alt="Practicum Logo"
             />
           </div>
-          <div class="footer__column footer__column_hours">
-            <h2 class="footer__heading">Hours</h2>
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
               <li class="footer__list-item">Weekdays: 9am - 8PM</li>
               <li class="footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
-          <div class="footer__column footer__column_social">
-            <h2 class="footer__heading">Social Media</h2>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__column-link" href="#">
@@ -336,7 +340,9 @@
             </ul>
           </div>
         </div>
-        <p class="footer__column-copyrights">&copy; 2023 Kory Russell</p>
+        <p class="footer__columns footer__copyright">
+          &copy; 2023 Kory Russell
+        </p>
       </footer>
     </div>
   </body>

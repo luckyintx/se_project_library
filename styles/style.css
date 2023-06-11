@@ -286,7 +286,7 @@ a {
   list-style-type: none;
 }
 
-.card {
+.staff__cards {
   background-color: #fff;
   border-radius: 6px;
   padding: 0px 40px 20px 32px;
@@ -435,16 +435,17 @@ a {
   display: flex;
 }
 
-.footer__column_hours {
+.footer__column_content_hours {
   margin-left: auto;
 }
 
-.footer__column_social {
+.footer__column_content_social {
   margin-left: 100px;
 }
 
 .footer__logo {
-  width: 153px;
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
