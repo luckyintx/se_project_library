@@ -276,24 +276,23 @@ a {
   color: #ffffff;
 }
 
-.staff__content {
+.staff__cards {
   max-width: 760px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin: 0 auto;
+  margin: 60px auto 0;
   list-style-type: none;
 }
 
-.staff__cards {
+.card {
   background-color: #fff;
   border-radius: 6px;
   padding: 0px 40px 20px 32px;
   box-sizing: border-box;
   width: 360px;
   height: 420px;
-  margin-top: 68px;
 }
 
 .card__content {
