@@ -28,34 +28,29 @@
   font-weight: bold;
 }
 
-a {
+.a {
   text-decoration: none;
 }
 
 .logo {
   height: 60px;
   width: 196px;
-  display: flex;
-  align-items: flex-start;
 }
 
 .nav__links {
   display: flex;
   column-gap: 20px;
   flex-direction: row;
-  margin: 8px;
+  margin: 8px 0 0;
   list-style-type: none;
   padding: 0;
   align-items: flex-start;
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
-  align-items: center;
-  flex-direction: row;
-  padding-top: 8px;
 }
 
 .nav__link:hover {
@@ -67,14 +62,14 @@ a {
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
 .header__description {
   max-width: 544px;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 0px;
+  margin: 32px 0 0;
 }
 
 .header__image {
@@ -282,14 +277,15 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin: 60px auto 0;
+  margin: 68px auto 0;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .card {
   background-color: #fff;
   border-radius: 6px;
-  padding: 0px 40px 20px 32px;
+  padding: 68px 40px 20px 32px;
   box-sizing: border-box;
   width: 360px;
   height: 420px;
@@ -349,11 +345,7 @@ a {
 }
 
 .step {
-  justify-content: space-between;
-  display: flex;
-  flex-wrap: wrap;
   flex-basis: 220px;
-  align-items: start;
 }
 
 .step__title {
@@ -362,6 +354,7 @@ a {
   font-weight: 700;
   display: flex;
   align-items: baseline;
+  margin: 20px 0 0 0;
 }
 
 .step__icon {
@@ -369,8 +362,7 @@ a {
 }
 
 .step__description {
-  margin-right: auto;
-  display: flex;
+  margin: 16px 0 0 0;
   font-size: 16px;
 }
 
@@ -462,7 +454,9 @@ a {
 }
 
 .footer__column-heading {
-  margin: 0 0 20px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
